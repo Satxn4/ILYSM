@@ -122,7 +122,7 @@ const scenes = {
     ]
   },
   final_beso: {
-    text: "Tras el beso, el monitor cardíaco se estabiliza. Alexandra sonríe con energía. 'Ya no me siento enferma', dice. Y por primera vez, su mirada se llena de vida. Fin.",
+    text: "Tras el beso, el monitor cardíaco se estabiliza. Alexandra sonríe con energía. 'Ya no me siento enferma *guiño guiño*', dice. Y por primera vez, su mirada se llena de vida. Fin.",
     sound: "kiss"
   },
   final_frente: {

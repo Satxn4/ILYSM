@@ -1,14 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fefefe;
+  background-color: #8f2828;
   font-family: 'Courier New', monospace;
   color: #400000;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-image: url('../img/hospital_room_pixel.png');
+  flex-direction: column; /* Agregado para que la imagen no se monte sobre el texto */
+  height: 85vh;
+  background-image: url('../IMAGEN/kiss.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -27,16 +28,42 @@ body {
 }
 
 .choices button {
-  margin: 5px;
-  padding: 10px 20px;
+  margin: 10px;
+  padding: 12px 24px;
   font-size: 1em;
-  border: none;
-  background-color: #cc0000;
   color: white;
-  border-radius: 5px;
+  background-color: #cc0000;
+  border: 4px solid #990000;
+  border-radius: 0;
+  font-family: 'Courier New', monospace;
   cursor: pointer;
+  image-rendering: pixelated;
+  box-shadow: 0 4px 0 #800000;
+  transition: all 0.1s ease-in-out;
+  text-shadow: 1px 1px #400000;
 }
 
 .choices button:hover {
   background-color: #990000;
+  box-shadow: 0 2px 0 #600000;
+  transform: translateY(2px);
+}
+
+.choices button:active {
+  background-color: #800000;
+  box-shadow: 0 0 0 #600000;
+  transform: translateY(4px);
+}
+
+/* Imagen final visible solo en la última escena */
+#finalImage {
+  display: none;
+  max-width: 60%;
+  max-height: 300px;
+  background-color: #cc0000;
+  padding: 10px;
+  border: 4px solid #990000;
+  box-shadow: 0 0 10px #400000;
+  margin-top: 20px;
+  image-rendering: pixelated;
 }
