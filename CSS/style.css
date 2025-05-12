@@ -9,7 +9,7 @@ body {
   justify-content: center;
   flex-direction: column; /* Agregado para que la imagen no se monte sobre el texto */
   height: 85vh;
-  background-image: url('../FONDO/kiss.jpg');
+  background-image: url('../IMAGEN/kiss.jpeg');
   background-size: cover;
   background-position: center;
 }
